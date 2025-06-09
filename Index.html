@@ -1,20 +1,99 @@
-<!DOCTYPE html><html lang="ur" dir="rtl">
+<!DOCTYPE html><html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>فرحان کمپیوٹر اینڈ ڈی ٹی پی ورک</title>
+  <title>Farhan Computer & DTP Work</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
-    header, footer { background:#004b8d; color:white; text-align:center; padding:1rem; }
-    nav a { margin:0 1rem; color:white; text-decoration:none; }
-    .container { padding:2rem; }
-    .services, .gallery, .reviews { margin-bottom:2rem; }
-    .gallery img { width:100%; max-width:300px; margin:0.5rem; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #004b8d;
+      padding: 1rem 2rem;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 90vh;
+      background: linear-gradient(to right, #004b8d, #0078d7);
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 250px;
+      margin: 0.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .footer {
+      background: #004b8d;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
   </style>
 </head>
-<body>
-  <header>
-    <h1>فرحان کمپیوٹر اینڈ ڈی ٹی پی ورک</h1>
+<body>  <header>
+    <div><strong>Farhan Computer</strong></div>
     <nav>
-      <a href="#home">ہوم</a>
-      <a
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Customer Care</a>
+    </nav>
+  </header>  <section class="hero" id="home">
+    <div>Welcome to Farhan Computer & DTP Work</div>
+  </section>  <section class="section" id="gallery">
+    <h2>Gallery</h2>
+    <p>Our featured works and designs.</p>
+    <div class="gallery">
+      <img src="image1.jpg" alt="Sample Work 1">
+      <img src="image2.jpg" alt="Sample Work 2">
+      <!-- Add more images as needed -->
+    </div>
+  </section>  <section class="section" id="work">
+    <h2>Our Work</h2>
+    <ul>
+      <li>Banner Design & Print</li>
+      <li>Logo Design</li>
+      <li>Business Card Design & Print</li>
+      <li>School Result Design</li>
+      <li>ID Card Design & Print</li>
+      <li>Book Layout & Printing</li>
+    </ul>
+  </section>  <section class="section" id="contact">
+    <h2>Customer Care</h2>
+    <p>📞 Mobile: <strong>9359566438</strong></p>
+    <p>📧 Email: <strong>mominfarhan.g@gmail.com</strong></p>
+  </section>  <footer class="footer">
+    <p>&copy; 2025 Farhan Computer & DTP Work. All rights reserved.</p>
+  </footer></body>
+</html>
